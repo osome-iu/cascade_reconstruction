@@ -1,0 +1,49 @@
+BIBLIOGRAPHIC STATISTICS
+
+Total number of papers: 19,294
+
+REMOVING UNWANTED DATA
+-------------------------
+Note: The below category counts may not be mutually exclusive.
+Number of papers from before 2006: 27
+Number of preprint papers        : 804
+Number of papers not articles.   : 2,418
+Number of papers not journo/confs: 6,329
+
+Only peer-reviewed work remains.
+
+---
+Number of papers with NA         : 210
+Total number of rows removed     : 6,723
+-------------------------
+
+Count by Field
+-------------------------
+Social Sciences: 6,007
+Physics and Astronomy: 2,238
+Computer Science: 1,473
+Business, Management and Accounting: 529
+Medicine: 407
+Psychology: 388
+Economics, Econometrics and Finance: 252
+Decision Sciences: 249
+Arts and Humanities: 235
+Health Professions: 193
+Engineering: 158
+Environmental Science: 147
+Agricultural and Biological Sciences: 94
+Mathematics: 72
+Biochemistry, Genetics and Molecular Biology: 36
+Neuroscience: 33
+Earth and Planetary Sciences: 16
+Immunology and Microbiology: 15
+Dentistry: 14
+Pharmacology, Toxicology and Pharmaceutics: 5
+Energy: 4
+Nursing: 3
+Materials Science: 1
+Chemistry: 1
+Veterinary: 1
+
+% of publications in top fifteen fields: 99.26%
+% of publications in bottom ten fields: 0.74%

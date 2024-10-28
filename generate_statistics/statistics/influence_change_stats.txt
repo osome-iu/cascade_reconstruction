@@ -1,0 +1,16 @@
+INFLUENCE CHANGE STATISTICS
+Proportion of positive strength differences:
+Bluesky: 56.39%
+Twitter: 90.84%
+
+Mean Jaccard similarity for Bluesky at each k value:
+ k  mean_jaccard
+ 1      0.202196
+ 5      0.258280
+10      0.332272
+
+Mean Jaccard similarity for Twitter at each k value:
+ k  mean_jaccard
+ 1      0.158427
+ 5      0.100484
+10      0.110854

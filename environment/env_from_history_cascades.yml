@@ -1,0 +1,6 @@
+name: cascades
+channels:
+  - defaults
+dependencies:
+  - python=3.12.2
+prefix: /home/mdeverna/miniconda3/envs/cascades
