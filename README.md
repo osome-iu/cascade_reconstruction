@@ -2,7 +2,7 @@
 
 ## 🚨🚨 IMPORTANT! 🚨🚨
 
-**This repository does not contain data files, as they are too large to store on GitHub, and only contains code.**
+**This repository does not contain data files, as they are too large to store on GitHub; it only contains code.**
 **As a result, replication using this repository will fail.**
 **This repository is meant to make it easier for the public to create issues referencing specific lines of code within the repository if they have any questions.**
 **For replication purposes, please visit the full repository and data store on [Zenodo](https://doi.org/10.5281/zenodo.13994029) which walks through the replication process.**
