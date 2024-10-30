@@ -9,18 +9,19 @@
 
 ## Paper
 
-For more details, you can find the paper [here]() (TO BE INCLUDED). It should be cited as:
+For more details, you can find the paper [here](https://doi.org/10.48550/arXiv.2410.21554). It should be cited as:
 
-[Matthew R. DeVerna](https://www.matthewdeverna.com/), [Francesco Pierri](https://pierri.faculty.polimi.it/), [Rachith Aiyappa](https://rachithaiyappa.github.io/), [Diogo Pachecho](https://diogofpacheco.github.io/), [John Bryden](https://jbryden.co.uk/home/), and [Filippo Menczer](https://cnets.indiana.edu/fil) (2024). **Information diffusion assumptions can distort our understanding of social network dynamics**, ArXiv preprint, ADD ARXIV LINK HERE.
+[Matthew R. DeVerna](https://www.matthewdeverna.com/), [Francesco Pierri](https://pierri.faculty.polimi.it/), [Rachith Aiyappa](https://rachithaiyappa.github.io/), [Diogo Pacheco](https://diogofpacheco.github.io/), [John Bryden](https://jbryden.co.uk/home/), and [Filippo Menczer](https://cnets.indiana.edu/fil) (2024). **Information diffusion assumptions can distort our understanding of social network dynamics**, ArXiv preprint, [https://doi.org/10.48550/arXiv.2410.21554](https://doi.org/10.48550/arXiv.2410.21554).
 
 
 ```bib
-@article{deverna2023cascades,
-  title={Information diffusion assumptions can distort our understanding of social network dynamics},
-  author={DeVerna, Matthew R. and Pierri, Francesco and Aiyappa, Rachith Pachecho, Diogo and Bryden, John and Menczer, Filippo},
-  journal={Preprint arXiv:UPDATE ME},
-  year={2024},
-  url={UPDATE ME}
+@misc{DeVerna2024CascadeRecon,
+  author       = {DeVerna, Matthew R. and Pierri, Francesco and Aiyappa, Rachith and Pacheco, Diogo and Bryden, John and Menczer, Filippo},
+  title        = {{Information diffusion assumptions can distort our understanding of social network dynamics}},
+  howpublished = {arXiv preprint},
+  year         = {2024},
+  month        = oct,
+  doi          = {10.48550/arXiv.2410.21554},
+  url          = {https://doi.org/10.48550/arXiv.2410.21554}
 }
 ```
-
