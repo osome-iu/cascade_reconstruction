@@ -29,6 +29,7 @@ python 005_calculate_naive_net_node_centralities.py; echo "005_calculate_naive_n
 python 006_calculate_centrality_jaccard.py; echo "006_calculate_centrality_jaccard.py completed."
 python 007_calculate_strength_change.py; echo "007_calculate_strength_change.py completed."
 python 008_calculate_naive_reconstructed_strength_correlations.py; echo "008_calculate_naive_reconstructed_strength_correlations.py completed."
+python 009_detect_communities.py; echo "009_detect_communities.py completed."
 
 echo "Midterm analysis pipeline completed."
 echo "\n\n\n"
