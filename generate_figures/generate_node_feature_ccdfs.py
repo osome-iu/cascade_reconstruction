@@ -18,6 +18,7 @@ Author:
 import os
 
 import glob as glob
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -25,6 +26,7 @@ import pandas as pd
 from matplotlib.lines import Line2D
 from matplotlib.ticker import FuncFormatter
 
+mpl.rcParams["font.size"] = 16
 
 # Change the current working directory to the script's location
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -74,11 +76,12 @@ gammas = [0.25, 0.5, 0.75]
 alphas = [1.1, 2.0, 3.0]
 
 fig, ax = plt.subplots(
-    #     nrows=3,
-    ncols=3,
-    #     figsize= (5,10)
-    figsize=(10, 4),
-    sharey=True,
+    nrows=3,
+    # ncols=3,
+    figsize=(5, 10),
+    # figsize=(10, 4),
+    # sharey=True,
+    # sharex=True,
 )
 
 color_map = {
@@ -153,7 +156,7 @@ ax[2].plot(
 
 # Clean up the plot
 plt.tight_layout()
-plt.subplots_adjust(wspace=0.2)
+plt.subplots_adjust(wspace=0.2, hspace=0.3)
 
 for idx, a in enumerate(ax):
     a.loglog()
@@ -178,6 +181,8 @@ ax[1].set_xlabel("structural virality")
 ax[2].set_xlabel("max breadth")
 
 ax[0].set_ylabel("CCDF\n(prop. of cascades)")
+ax[1].set_ylabel("CCDF\n(prop. of cascades)")
+ax[2].set_ylabel("CCDF\n(prop. of cascades)")
 
 
 ### BUILD THE LEGEND ###
@@ -210,9 +215,9 @@ style_handles = [
 color_legend = fig.legend(
     handles=color_handles,
     loc="upper center",
-    bbox_to_anchor=(0.5, 1.2),
+    bbox_to_anchor=(0.5, 1.1),
     ncol=len(color_map.keys()),
-    fontsize=12,
+    fontsize=15,
     frameon=False,
 )
 
@@ -220,15 +225,15 @@ color_legend = fig.legend(
 style_legend = fig.legend(
     handles=style_handles,
     loc="upper center",
-    bbox_to_anchor=(0.5, 1.125),
+    bbox_to_anchor=(0.5, 1.05),
     ncol=len(alphas),
-    fontsize=12,
+    fontsize=15,
     frameon=False,
 )
 
-ax[0].annotate("(a)", xy=(-0.3, 0.98), xycoords=ax[0].transAxes)
-ax[1].annotate("(b)", xy=(-0.2, 0.98), xycoords=ax[1].transAxes)
-ax[1].annotate("(c)", xy=(-0.2, 0.98), xycoords=ax[2].transAxes)
+ax[0].annotate("(a)", xy=(-0.3, 0.99), xycoords=ax[0].transAxes)
+ax[1].annotate("(b)", xy=(-0.3, 0.99), xycoords=ax[1].transAxes)
+ax[1].annotate("(c)", xy=(-0.3, 0.99), xycoords=ax[2].transAxes)
 
 
 # Define the file name and extensions
